@@ -12,3 +12,15 @@ Example: https://www.google.com/maps/place/Roberto+Clemente+Park/@39.9658361,-75
 
 Output: A csv file with columns for: the place name, total number of place reviews, overall place score, amount of reviews by individual, amount of photos by individual, individual place score, and the review text.
 
+
+
+Example run:
+
+  `python extractor.py`
+  
+  
+Example output:
+
+| Attempt | #1  | #2  |
+| ------- | --- | --- |
+| Seconds | 301 | 283 |
