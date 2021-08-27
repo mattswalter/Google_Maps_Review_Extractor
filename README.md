@@ -5,5 +5,7 @@
 
 Utilizes Beautiful soup and text download links for google maps reviews.
 
-Required packages: urlib, beautifulsoup4, and pandas
+Required packages: urllib, bs4, and pandas, and os
+
+Input: A csv file that contains the link to the google reviews webpage in a column titled ''
 
