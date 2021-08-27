@@ -19,8 +19,8 @@ Example run:
   `python extractor.py`
   
   
-Example output:
+Example output (see output/parks_reviews_philly):
 
 | url | place_name  | place_score  | num_reviews | user_num_reviews  | user_num_photos  | time  | score  |text  |
 | --- | ----------- | ------------ | ----------- | ----------------- | ---------------- |------ | ------ | ---- |
-| https://www.google.com/maps/place/20th+%26+Tioga+Street+Park/@40.007803,-75.1616521,562m/data=!3m1!1e3!4m7!3m6!1s0x89c6b80495188afb:0x3012bf09959f9def!8m2!3d40.007803!4d-75.1616521!9m1!1b1 | 301 | 283 | Seconds | 301 | 283 |
+| https://www.google.com/maps/place/20th+%26+Tioga+Street+Park/@40.007803,-75.1616521,562m/data=!3m1!1e3!4m7!3m6!1s0x89c6b80495188afb:0x3012bf09959f9def!8m2!3d40.007803!4d-75.1616521!9m1!1b1 | 20th & Tioga Street Park | 4.2 | 43 | 63 | - | 3 months ago | 5 | Beautiful community garden space in the neighborhood that I grew up in. Happily donated organic collard green seedlings to this space  Please support this space. |
