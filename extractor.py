@@ -38,8 +38,11 @@ for url in dat:
         while True:
             # Open review information
             target_url = "https://www.google.com/async/reviewDialog?hl=en&async=feature_id:" + place_id + ",sort_by:,next_page_token:" + next_page_token + ",associated_topic:,_fmt:pc"
-
+            
             txt = urllib.request.urlopen(target_url).read()
+
+
+            
             # Read in html
             response = BeautifulSoup(txt, 'html.parser')
 
@@ -69,10 +72,9 @@ for url in dat:
 
 
             for node in response.findAll('div',{"class": "Jtu6Td"}):
-                # Find the review text
+                # Find the review text 
                 re = (''.join(node.findAll(text=True, )))
-                review = re.split('More')[-1]
-
+                review = re
                 d1.append(review)
 
             for node in response.findAll('div',{"class": "FGlxyd"}):
